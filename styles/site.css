@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  align: center;
+}
+
+.header {
+  background: white;
+}
+
+.container {
+  position: relative;
+  max-width: 1218px;
+  margin: 0 auto;
+  height: 260px;
+
+}
+
+.logo {
+  width: 246px;
+  height: 246px;
+  display: block;
+  margin:0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.site-nav {
+  position:absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.site-nav li {
+  display: inline-block;
+}
+
+#nav-about {
+  margin-left: 286px;
+}
+.diamond {
+  width: 246px;
+  height: 246px;
+  display: block;
+  margin:0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
